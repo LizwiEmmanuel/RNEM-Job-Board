@@ -1,0 +1,28 @@
+{
+  "name": "rnem-job-board",
+  "version": "1.0.0",
+  "description": "This will be a full-stack mobile application, where:  The frontend is a React Native mobile app (iOS/Android).  The backend is built with Node.js + Express.  The database is MongoDB (hosted locally or on Atlas).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LizwiEmmanuel/RNEM-Job-Board.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LizwiEmmanuel/RNEM-Job-Board/issues"
+  },
+  "homepage": "https://github.com/LizwiEmmanuel/RNEM-Job-Board#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.1"
+  }
+}
